@@ -1,0 +1,14 @@
+/Users/joelburns/cLeetCode/bin/Debug/net10.0/cLeetCode
+/Users/joelburns/cLeetCode/bin/Debug/net10.0/cLeetCode.deps.json
+/Users/joelburns/cLeetCode/bin/Debug/net10.0/cLeetCode.runtimeconfig.json
+/Users/joelburns/cLeetCode/bin/Debug/net10.0/cLeetCode.dll
+/Users/joelburns/cLeetCode/bin/Debug/net10.0/cLeetCode.pdb
+/Users/joelburns/cLeetCode/obj/Debug/net10.0/cLeetCode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joelburns/cLeetCode/obj/Debug/net10.0/cLeetCode.AssemblyInfoInputs.cache
+/Users/joelburns/cLeetCode/obj/Debug/net10.0/cLeetCode.AssemblyInfo.cs
+/Users/joelburns/cLeetCode/obj/Debug/net10.0/cLeetCode.csproj.CoreCompileInputs.cache
+/Users/joelburns/cLeetCode/obj/Debug/net10.0/cLeetCode.dll
+/Users/joelburns/cLeetCode/obj/Debug/net10.0/refint/cLeetCode.dll
+/Users/joelburns/cLeetCode/obj/Debug/net10.0/cLeetCode.pdb
+/Users/joelburns/cLeetCode/obj/Debug/net10.0/cLeetCode.genruntimeconfig.cache
+/Users/joelburns/cLeetCode/obj/Debug/net10.0/ref/cLeetCode.dll
