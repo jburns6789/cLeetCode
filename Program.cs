@@ -34,6 +34,18 @@
 
 //---------------
 
-string s = "abcabcbb";
-var result = new Solution5().LengthOfLongestSubstring(s);
-Console.WriteLine($"Length of substring no repeating characters: {result}");
+//string s = "abcabcbb";
+//var result = new Solution5().LengthOfLongestSubstring(s);
+//Console.WriteLine($"Length of substring no repeating characters: {result}");
+
+//---------------
+
+//int[]nums = [0,1,0,3,12];
+//var result = new Solution6().moveZeros(nums);
+//Console.WriteLine($"{result}");
+
+//---------------
+
+int[]nums = [1,2,3,4];
+var result = new Solution11().productOfArraySelf(nums);
+Console.WriteLine($"{result}");
