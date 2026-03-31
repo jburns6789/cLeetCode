@@ -46,6 +46,16 @@
 
 //---------------
 
+//---------------
+
+//---------------
+
+//---------------
+
+//---------------
+
 int[]nums = [1,2,3,4];
 var result = new Solution11().productOfArraySelf(nums);
 Console.WriteLine($"{result}");
+
+//---------------

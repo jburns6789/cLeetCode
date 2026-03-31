@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cLeetCode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b59d0c17c481ba4f338191be84c70bc862dc7fac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ca1488e2750ea3d408b6ea9a9adb29f4f7f16a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("cLeetCode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cLeetCode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
