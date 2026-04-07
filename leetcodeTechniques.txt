@@ -1,0 +1,10 @@
+understand the input, extract from the fluff
+what happens to the input?
+to become the output
+
+understand the pattern for the problem
+figureout what ds is needed and implement the algorythim  
+
+if once or two tests fail its usually edge cases
+if multiple fails its an implemenation issue
+debug, use print statements

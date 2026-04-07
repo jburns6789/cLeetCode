@@ -44,3 +44,20 @@ public class Solution5
 
 // find the length of the longest substring w/o duplicate characters
 // A subsequence is a subset of a larger set where relative order is preserved, 
+
+//int left = 0;
+//int right = 0;
+//int maxLength = 0;
+//HashSet<char> charSet = new();
+
+//while (right < s.length )
+    //if(!charSet.Contains(s.right))
+        //charSet.Add(s.right)
+        //right++;
+        //maxLength = Math.Max(maxLength, right - left);   <----- very common way to find max
+
+    //else
+        //charSet.Remove(s.left);
+        //left++;
+
+//less efficent solution

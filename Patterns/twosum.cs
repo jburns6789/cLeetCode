@@ -1,3 +1,6 @@
+// hash map to store seen items, solution is 0(n) space and time
+// items are only iterated over once, items are stored in the hash set
+
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
 
