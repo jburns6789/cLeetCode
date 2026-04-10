@@ -1,7 +1,7 @@
 //two pointers, temp is needed beacuse the valuse would be overwritten during the swap
 //on o1
 
-public class Solution4
+public class Solution6
 {
     public void ReverseString(char[] s)
     {

@@ -3,7 +3,7 @@
 //location the tally the seen letters
 // o(n) o(1)
 // orderby is sorting => o(nlogn)
-public class Solution3
+public class Solution4
 {
    public bool IsAnagram(string s, string t)
     {

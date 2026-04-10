@@ -1,7 +1,9 @@
+//one pass time O(n), space O(1), brute force O(n2) every buysell pair is checked
+
 //input prices = [7,1,5,3,6,4] output => 5
 //two pointers time 0(n), space(0)1
 //buy on day2 sell on day5
-public class Solution1
+public class Solution2
 {
     public int maxProfit(int[] prices)
     {

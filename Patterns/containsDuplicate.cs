@@ -3,7 +3,7 @@
 
 using System.Security.Cryptography.X509Certificates;
 
-public class Solution2
+public class Solution3
 {
     public bool ContainsDuplicate(int[] nums)
     {
