@@ -63,11 +63,15 @@
 //Solution 18 Revese Linked List
 
 //public static void Main(string[] args)
-    {
-        Node head = new Node(10);
-        head.Next = new Node(20);
-        head.Next.Next = new Node(30);
-        head.Next.Next = new Node(40);
+    
+Node head = new Node(10);
+head.Next = new Node(20);
+head.Next.Next = new Node(30);
+head.Next.Next.Next = new Node(40);
 
-        TraverseList(head);
-    }
+Console.Write("Forward: ");
+LinkedListExercise.TraverseList(head);
+
+Console.Write("Reversed: ");
+LinkedListExercise.PrintReverse(head);
+    

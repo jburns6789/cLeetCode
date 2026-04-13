@@ -1,22 +1,22 @@
 // print the vale of each node in reverse
-//
+// time o(n) based on input and o(1)
 
-class Node
+// class Node
+// {
+//     public int Data {get; set;}
+//     public Node Next {get; set;}
+
+//     public Node(int new_data)
+//     {
+//         Data = new_data
+//         Next = null;
+//     }
+
+// }
+
+public class LinkedListExercise
 {
-    public int Data {get; set;}
-    public Node Next {get; set;}
-
-    public Node(int new_data)
-    {
-        Data = new_data
-        Next = null;
-    }
-
-}
-
-class GfG
-{
-    static void TraverseList(Node head)
+    public static void TraverseList(Node head)
     {
         while (head != null)
         {
@@ -29,6 +29,13 @@ class GfG
         }
         Console.WriteLine();
 
+    }
+
+    public static void PrintReverse(Node head)
+    {
+        
+
+        
     }
 
     // public static void Main(string[] args)
