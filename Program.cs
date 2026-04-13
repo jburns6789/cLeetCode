@@ -7,14 +7,14 @@
 //---------------
 
 //int[] prices = {7,1,5,3,6,4};
-//var result = new Solution1().maxProfit(prices);
+//var result = new Solution2().maxProfit(prices);
 //Console.WriteLine($"Profit:  {result}");
 
 //---------------
 
 //int[] nums = [1,2,3,4];
 //int[] nums2 = [1,2,3,3,4,5];
-//var result = new Solution2().ContainsDuplicate(nums);
+//var result = new Solution3().ContainsDuplicate(nums);
 //Console.WriteLine($"{result}");
 
 //---------------
@@ -54,8 +54,20 @@
 
 //---------------
 
-int[]nums = [1,2,3,4];
-var result = new Solution11().productOfArraySelf(nums);
-Console.WriteLine($"{result}");
+//int[]nums = [1,2,3,4];
+//var result = new Solution11().productOfArraySelf(nums);
+//Console.WriteLine($"{result}");
 
 //---------------
+
+//Solution 18 Revese Linked List
+
+//public static void Main(string[] args)
+    {
+        Node head = new Node(10);
+        head.Next = new Node(20);
+        head.Next.Next = new Node(30);
+        head.Next.Next = new Node(40);
+
+        TraverseList(head);
+    }

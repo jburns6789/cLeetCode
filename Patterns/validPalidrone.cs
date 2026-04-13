@@ -1,6 +1,6 @@
 // convert upper to lower char and remove non alpha numeric 
 // naive, create new string reverse and compare 0(2n) 0(n)
-//optimal 2 pointers ignore white space and non alpha numeric chars
+// optimal 2 pointers ignore white space and non alpha numeric chars
 
 // time O(n) space O(1) dependant and length of string and no new space created
 
@@ -22,8 +22,10 @@ public class Solution5
                 {
                     startIndex++;
                 }
-                else if{
-                    (!char.IsLetterOrDigit(s[endIndex])){
+                else if
+                    {
+                    (!char.IsLetterOrDigit(s[endIndex]))
+                    {
                         endIndex--;
                     }
                 }
