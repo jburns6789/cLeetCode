@@ -5,7 +5,7 @@ using System.Globalization;
 
 public class Solution11
 {
-    public void productOfArraySelf(int[] nums)
+    public int[] productOfArraySelf(int[] nums)
     {
         int[] returnValue = new int[nums.Length];
         int product = 1;

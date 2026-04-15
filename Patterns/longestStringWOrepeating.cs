@@ -4,7 +4,7 @@
 //patterns
 //o(n) each character is only processed once
 
-public class Solution6
+public class Solution7
 {
     public int LengthOfLongestSubstring(string s)
     {

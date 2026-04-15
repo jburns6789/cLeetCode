@@ -12,3 +12,4 @@
 /Users/joelburns/cLeetCode/obj/Debug/net10.0/cLeetCode.pdb
 /Users/joelburns/cLeetCode/obj/Debug/net10.0/cLeetCode.genruntimeconfig.cache
 /Users/joelburns/cLeetCode/obj/Debug/net10.0/ref/cLeetCode.dll
+/Users/joelburns/cLeetCode/obj/Debug/net10.0/cLeetCode.sourcelink.json

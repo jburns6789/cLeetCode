@@ -22,13 +22,11 @@ public class Solution5
                 {
                     startIndex++;
                 }
-                else if
-                    {
-                    (!char.IsLetterOrDigit(s[endIndex]))
+                else if (!char.IsLetterOrDigit(s[endIndex]))
                     {
                         endIndex--;
                     }
-                }
+                
                 else
                 {
                     if (char.ToUpper(s[startIndex]) != char.ToUpper(s[endIndex]))

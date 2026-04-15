@@ -2,7 +2,7 @@
 
 using System.Security.AccessControl;
 
-public class Solution6
+public class Solution10
 {
     public void moveZeros(int[] nums)
     {
