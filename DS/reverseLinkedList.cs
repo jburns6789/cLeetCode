@@ -38,9 +38,9 @@ public class LinkedListExercise
 
     }
 
-    public Node PrintReverse(Node head)
+    public static Node PrintReverse(Node head)
     {
-       if (head == null || head.Next == null)
+       if (head == null || head.Next == null) //check
         {
             return head;
         }
@@ -48,6 +48,7 @@ public class LinkedListExercise
         Node prev = null;
         Node cur = head;
 
+        // reverse was happening list items being printed before being reversed
         while (cur != null)
         {
             Node post = cur.Next;
@@ -56,11 +57,20 @@ public class LinkedListExercise
             cur = post;
         }
 
+        Node temp = prev;
+        // iterating through the data from the node and printing
+        while (temp != null)
+        {
+            Console.Write(temp.Data + (temp.Next != null ? "->" : ""));
+            temp = temp.Next;
+
+        }
+        Console.WriteLine();
         return prev;
 
     }
 
-    // resursive solution
+    // recursive solution
 
     // void ReadBackward (Node n)
     // {
