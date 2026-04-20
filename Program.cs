@@ -62,16 +62,39 @@
 
 //Solution 18 Revese Linked List
     
-Node head = new Node(10);
-head.Next = new Node(20);
-head.Next.Next = new Node(30);
-head.Next.Next.Next = new Node(40);
+// Node head = new Node(10);
+// head.Next = new Node(20);
+// head.Next.Next = new Node(30);
+// head.Next.Next.Next = new Node(40);
 
-Console.Write("Forward: ");
-LinkedListExercise.TraverseList(head);
+// Console.Write("Forward: ");
+// LinkedListExercise.TraverseList(head);
 
-Console.Write("Reversed: ");
-LinkedListExercise.PrintReverse(head);
+// Console.Write("Reversed: ");
+// LinkedListExercise.PrintReverse(head);
 
 //---------------
     
+// Solution 20 Linked List Cycle
+
+ListNode node1 = new ListNode(3);
+ListNode node2 = new ListNode(2);
+ListNode node3 = new ListNode(0);
+ListNode node4 = new ListNode(-4);
+
+node1.next = node2;
+node2.next = node3;
+node3.next = node4;
+node4.next = node2;
+
+var solution = new Solution20();
+Console.WriteLine("Has cycle: " + solution.HasCycle(node1));//True
+
+//ListNode a = new ListNode(1);
+//ListNode b = new ListNode(2);
+//a.next = b;
+//Console.WriteLine("Has cycle: " + solution.HasCycle(a)); // False
+
+//---------------
+    
+// Solution 21
