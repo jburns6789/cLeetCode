@@ -1,0 +1,15 @@
+Choosing the Right One
+Random access by index → List<T> or Array
+​
+Fast key lookup → Dictionary<TKey, TValue>
+​
+Sorted keys + index access → SortedList<TKey, TValue>
+​
+Deduplication / set math → HashSet<T>
+​
+FIFO processing → Queue<T>
+​
+LIFO / undo → Stack<T>
+​
+Fast node-relative insert/remove → LinkedList<T>
+​

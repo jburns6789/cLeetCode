@@ -7,7 +7,8 @@
 
 //Return true if there is a cycle in the linked list. Otherwise, return false.
 
-
+// cycle exists if both of the pointers arrive on the same node, one pointer slow, one node
+// another pointer fast, moves two nodes, if the fast cycles through and meets the slow its a cycle
 
 public class Solution20
 {

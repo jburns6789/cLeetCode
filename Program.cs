@@ -60,6 +60,15 @@
 
 //---------------
 
+//Solution14 Maximum Subarray
+int nums = [-2,1,-3,4,-1,2,1,-5,4];
+//oupt6
+//largest sum is 6
+
+
+   
+//---------------
+
 //Solution 18 Revese Linked List
     
 // Node head = new Node(10);
