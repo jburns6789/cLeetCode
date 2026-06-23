@@ -1,4 +1,10 @@
-// 3 pointers
+// 2 pointers
+// two int arrays sorted in place non decreasing order, sort into a single array sorted in non decreasing order
+// final array not returned but sorted in num1 array**
+// don't include the zeros ---> iterate from right to left to handle the the zeros
+// usig the pointer index location to calcualte the where the numbers are going to end up
+// comparing the the indexs from each array to sort in the final array
+
 
 public class Solution8
 {
